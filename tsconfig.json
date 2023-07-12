@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2021"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "paths": {
+      "$root/*": [
+        "src/*"
+      ],
+      "$components/*": [
+        "src/components/*"
+      ],
+      "$containers/*": [
+        "src/containers/*"
+      ],
+      "$hooks/*": [
+        "src/hooks/*"
+      ],
+      "$icons/*": [
+        "src/icons/*"
+      ],
+      "$test/*": [
+        "test/*"
+      ],
+      "$test-helpers/*": [
+        "test/__helpers__/*"
+      ],
+      "$test-mocks/*": [
+        "test/__mocks__/*"
+      ],
+      "$types/*": [
+        "src/types/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.errorsWrapper {
+    margin-top: 1rem;
+}
+
+.noErrors {
+    display: flex;
+    color: darkgreen;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.noErrorsStr {
+    margin-left: 1rem;
+}
+
+.foundErrors {
+    display: flex;
+    color: darkred;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.foundErrorsStr {
+    margin-left: 1rem;
+}
+
+.parsing {
+  display: flex;
+  color: dimgray;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.parsingStr {
+  margin-left: 1rem;
+}
+
+.errorsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.errorsListElement {
+  color: darkred;
+}

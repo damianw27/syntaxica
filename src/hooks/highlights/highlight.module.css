@@ -1,0 +1,95 @@
+.table {
+  border-spacing: 0;
+}
+
+.lineNumberCell {
+  position: relative;
+  width: 1%;
+  min-width: 50px;
+  padding: 0 10px 0 0;
+  font-family: jetbrains-mono,monospace;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a1a1a1;
+  text-align: right;
+  white-space: nowrap;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.codeLine {
+  padding: 0;
+  font-family: 'jetbrains-mono', monospace !important;
+}
+
+.codeLineError {
+  background-color: #ff000022;
+}
+
+.highlightBackground {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.highlightLineNumberBackground {
+  width: 55px;
+  height: 100%;
+  border-right: 1px solid #e3e9ef;
+  background-color: #efefef88;
+}
+
+.highlightLineBackground {
+  flex: 1;
+  height: 100%;
+}
+
+.token {
+  font-family: jetbrains-mono, monospace;
+}
+
+.keyword {
+  color: #990055;
+  font-weight: bold;
+}
+
+.punctuation {
+  color: #000000;
+  font-weight: bold;
+}
+
+.comment {
+  color: #2bda00;
+}
+
+.string {
+  color: #007cc2;
+}
+
+.boolean {
+  color: #ff720e;
+}
+
+.number {
+  color: #00703b;
+}
+
+.custom1 {
+  color: #0000ff;
+}
+
+.custom2 {
+  color: #0000bb;
+}
+
+.custom3 {
+  color: #c100ff;
+}
+
+.custom4 {
+  color: #9400c4;
+}
